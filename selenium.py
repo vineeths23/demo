@@ -10,5 +10,5 @@ driver.get("https://www.google.com")
 if "Google" in driver.title:
     print("Successfully opened Google.")
 
-time.sleep(5)
+time.sleep(6)
 driver.quit()
